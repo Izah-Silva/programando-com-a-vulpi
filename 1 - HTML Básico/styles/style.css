@@ -1,0 +1,13 @@
+img {
+  width: 200px;
+}
+
+#vermelho {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.lista-ul {
+  background-color: yellow;
+}
