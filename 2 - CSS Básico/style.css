@@ -36,3 +36,14 @@ p {
 h1 {
   color: var(--cor-wisteria);
 }
+
+.circulo {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.roxo {
+  background-color: var(--cor-purple-mountain);
+  border: 1px var(--cor-orchid-pink) solid;
+}
