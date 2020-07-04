@@ -1,14 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
+
+:root {
+  /* Cores */
+  --cor-wisteria: #c09bd8;
+  --cor-purple-mountain: #9f84bd;
+  --cor-orchid-pink: #ebc3db;
+  --cor-lavender-blush: #ede3e9;
+  --cor-eggshell: #e6e4ce;
+  /* Dimensões */
+  --dim-texto-padrao: 1.2rem;
+  /* Margins */
+  --mar-elemento-interno: 12px 12px;
+}
+
+body {
+  background-color: var(--cor-eggshell);
+}
+
 .quadrado {
-  background-color: red;
+  background-color: var(--cor-purple-mountain);
   width: 100px;
   height: 100px;
   margin: auto;
   padding: 10px 10px;
-  border: solid green 2px;
-  border-radius: 50%;
+  border: solid var(--cor-orchid-pink) 2px;
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  margin: var(--mar-elemento-interno);
   font-weight: lighter;
+  font-size: var(--dim-texto-padrao);
+  color: var(--cor-wisteria);
+}
+
+h1 {
+  color: var(--cor-wisteria);
 }
