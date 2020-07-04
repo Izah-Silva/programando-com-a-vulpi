@@ -47,3 +47,21 @@ h1 {
   background-color: var(--cor-purple-mountain);
   border: 1px var(--cor-orchid-pink) solid;
 }
+
+/* Metodologia BEM */
+
+.cartao {
+  background-color: var(--cor-lavender-blush);
+  border: 5px solid var(--cor-purple-mountain);
+  padding: 50px 50px;
+}
+
+.cartao .cabecalho {
+  background-color: var(--cor-eggshell);
+  border: 2px solid var(--cor-orchid-pink);
+}
+
+.cartao .cabecalho .titulo {
+  margin-left: 30%;
+  color: var(--cor-purple-mountain);
+}
