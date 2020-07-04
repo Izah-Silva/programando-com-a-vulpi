@@ -1,1 +1,14 @@
-/* Este é um Arquivo CSS */
+.quadrado {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  padding: 10px 10px;
+  border: solid green 2px;
+  border-radius: 50%;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
