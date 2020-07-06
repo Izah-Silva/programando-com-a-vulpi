@@ -36,25 +36,30 @@
   </head>
   <body>
     <!-- Barra de Navegação -->
-    <nav>
+    <nav id="mainNav">
       <div>
-        <a href="">Next level Jobs</a><button>Menu <i></i></button>
+        <a href="#page-top">Next level Jobs</a
+        ><button id="menuBtn">Menu <i></i></button>
         <div>
           <ul>
-            <li><a href="">Vagas</a></li>
-            <li><a href="">Sobre Nós</a></li>
-            <li><a href="">Nossas Redes Sociais</a></li>
+            <li><a href="#jobs">Vagas</a></li>
+            <li><a href="#about">Sobre Nós</a></li>
+            <li><a href="#footer">Nossas Redes Sociais</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- Headline da Página -->
-    <header>
+    <header class="masthead" id="masthead">
       <div>
         <!-- Logotipo - Master -->
-        <img src="./assets/img/logovulpi.png" alt="Logotipo" />
+        <img
+          class="masthead-avatar"
+          src="./assets/img/logovulpi.png"
+          alt="Logotipo"
+        />
         <!-- Título - Master -->
-        <h1>O Next Level da sua Carreira</h1>
+        <h1 class="masthead-heading">O Next Level da sua Carreira</h1>
         <!-- Divider - Ícone -->
         <div>
           <div></div>
@@ -64,14 +69,16 @@
           <div></div>
         </div>
         <!-- Sub-Título -->
-        <p>Vagas para Desenvolvedores e Gerentes de Projeto</p>
+        <p class="masthead-subheading">
+          Vagas para Desenvolvedores e Gerentes de Projeto
+        </p>
       </div>
     </header>
     <!-- Vagas -->
-    <section>
+    <section class="jobs page-section" id="jobs">
       <div>
         <!-- Título da Seção -->
-        <h2>Vagas por tecnologia</h2>
+        <h2 class="page-section-heading">Vagas por tecnologia</h2>
         <!-- Divider - Ícone -->
         <div>
           <div></div>
@@ -81,12 +88,12 @@
           <div></div>
         </div>
         <!-- Grade de Vagas -->
-        <div>
+        <div class="jobs-div">
           <!-- Vaga número 1 -->
           <div>
-            <div>
-              <div>
-                <div>
+            <div class="jobs-item">
+              <div class="jobs-item-caption">
+                <div class="jobs-item-caption-content">
                   <i></i>
                 </div>
               </div>
@@ -95,9 +102,9 @@
           </div>
           <!-- Vaga número 2 -->
           <div>
-            <div>
-              <div>
-                <div>
+            <div class="jobs-item">
+              <div class="jobs-item-caption">
+                <div class="jobs-item-caption-content">
                   <i></i>
                 </div>
               </div>
@@ -106,9 +113,9 @@
           </div>
           <!-- Vaga número 3 -->
           <div>
-            <div>
-              <div>
-                <div>
+            <div class="jobs-item">
+              <div class="jobs-item-caption">
+                <div class="jobs-item-caption-content">
                   <i></i>
                 </div>
               </div>
@@ -117,9 +124,9 @@
           </div>
           <!-- Vaga número 4 -->
           <div>
-            <div>
-              <div>
-                <div>
+            <div class="jobs-item">
+              <div class="jobs-item-caption">
+                <div class="jobs-item-caption-content">
                   <i></i>
                 </div>
               </div>
@@ -128,9 +135,9 @@
           </div>
           <!-- Vaga número 5 -->
           <div>
-            <div>
-              <div>
-                <div>
+            <div class="jobs-item">
+              <div clas="jobs-item-caption">
+                <div class="jobs-item-caption-content">
                   <i></i>
                 </div>
               </div>
@@ -139,9 +146,9 @@
           </div>
           <!-- Vaga número 6 -->
           <div>
-            <div>
-              <div>
-                <div>
+            <div class="jobs-item">
+              <div class="jobs-item-caption">
+                <div class="jobs-item-caption-content">
                   <i></i>
                 </div>
               </div>
@@ -152,10 +159,10 @@
       </div>
     </section>
     <!-- Sobre Nós -->
-    <section>
+    <section class="about page-section" id="about">
       <div>
         <!-- Cabeçalho - Sobre nós -->
-        <h2>Sobre nossas vagas</h2>
+        <h2 class="page-section-heading">Sobre nossas vagas</h2>
         <!-- Divider - Ícone -->
         <div>
           <div></div>
@@ -191,7 +198,7 @@
       </div>
     </section>
     <!-- Rodapé -->
-    <footer>
+    <footer class="footer" id="footer">
       <div>
         <div>
           <!-- Localização - Rodapé -->
@@ -227,7 +234,7 @@
       </div>
     </footer>
     <!-- Direitos Autorais -->
-    <div>
+    <div class="copyright">
       <div>
         <small>
           Copyright © <a href="https://vulpi.com.br/">Vulpi</a> | IT Next Level
@@ -240,7 +247,7 @@
       </div>
     </div>
     <!-- Vagas - Conteúdo - Vaga número 1 -->
-    <div>
+    <div class="jobs-modal" id="jobsModal1">
       <div>
         <div>
           <button>
@@ -253,7 +260,9 @@
               <div>
                 <div>
                   <!-- Vaga Conteúdo - Título -->
-                  <h2>Desenvolvedor Frontend Senior</h2>
+                  <h2 class="jobs-modal-title">
+                    Desenvolvedor Frontend Senior
+                  </h2>
                   <!-- Divider - Ícone -->
                   <div>
                     <div></div>
@@ -285,7 +294,7 @@
       </div>
     </div>
     <!-- Vagas - Conteúdo - Vaga número 2 -->
-    <div>
+    <div class="jobs-modal" id="jobsModal2">
       <div>
         <div>
           <button>
@@ -298,7 +307,9 @@
               <div>
                 <div>
                   <!-- Vaga Conteúdo - Título -->
-                  <h2>Desenvolvedor Frontend Senior</h2>
+                  <h2 class="jobs-modal-title">
+                    Desenvolvedor Frontend Senior
+                  </h2>
                   <!-- Divider - Ícone -->
                   <div>
                     <div></div>
@@ -330,7 +341,7 @@
       </div>
     </div>
     <!-- Vagas - Conteúdo - Vaga número 3 -->
-    <div>
+    <div class="jobs-modal" id="jobsModal3">
       <div>
         <div>
           <button>
@@ -343,7 +354,9 @@
               <div>
                 <div>
                   <!-- Vaga Conteúdo - Título -->
-                  <h2>Desenvolvedor Frontend Senior</h2>
+                  <h2 class="jobs-modal-title">
+                    Desenvolvedor Frontend Senior
+                  </h2>
                   <!-- Divider - Ícone -->
                   <div>
                     <div></div>
@@ -375,7 +388,7 @@
       </div>
     </div>
     <!-- Vagas - Conteúdo - Vaga número 4 -->
-    <div>
+    <div class="jobs-modal" id="jobsModal4">
       <div>
         <div>
           <button>
@@ -388,7 +401,9 @@
               <div>
                 <div>
                   <!-- Vaga Conteúdo - Título -->
-                  <h2>Desenvolvedor Frontend Senior</h2>
+                  <h2 class="jobs-modal-title">
+                    Desenvolvedor Frontend Senior
+                  </h2>
                   <!-- Divider - Ícone -->
                   <div>
                     <div></div>
@@ -420,7 +435,7 @@
       </div>
     </div>
     <!-- Vagas - Conteúdo - Vaga número 5 -->
-    <div>
+    <div class="jobs-modal" id="jobsModal5">
       <div>
         <div>
           <button>
@@ -433,7 +448,9 @@
               <div>
                 <div>
                   <!-- Vaga Conteúdo - Título -->
-                  <h2>Desenvolvedor Frontend Senior</h2>
+                  <h2 class="jobs-modal-title">
+                    Desenvolvedor Frontend Senior
+                  </h2>
                   <!-- Divider - Ícone -->
                   <div>
                     <div></div>
@@ -465,7 +482,7 @@
       </div>
     </div>
     <!-- Vagas - Conteúdo - Vaga número 6 -->
-    <div>
+    <div class="jobs-modal" id="jobsModal6">
       <div>
         <div>
           <button>
@@ -478,7 +495,9 @@
               <div>
                 <div>
                   <!-- Vaga Conteúdo - Título -->
-                  <h2>Desenvolvedor Frontend Senior</h2>
+                  <h2 class="jobs-modal-title">
+                    Desenvolvedor Frontend Senior
+                  </h2>
                   <!-- Divider - Ícone -->
                   <div>
                     <div></div>
