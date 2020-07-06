@@ -1,0 +1,23 @@
+/* Variáveis Globais do Nosso Projeto */
+
+:root {
+  --cor-primaria: #4e1d6d;
+  --cor-secundaria: #d22365;
+  --cor-secundaria-offset: #7e1f6a;
+  --cor-highlight: #291d6d;
+  --cor-cinza-escuro: #424242;
+  --cor-cinza-claro: #858585;
+  --cor-cinza-offcolor: #acacac;
+}
+
+#mainNav {
+  background-color: var(--cor-highlight);
+}
+
+.masthead {
+  background-color: var(--cor-primaria);
+}
+
+#about {
+  background-color: var(--cor-secundaria);
+}
