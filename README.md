@@ -18,7 +18,7 @@
 Basta clonar o repositório em seu computador abrindo a pasta desejada utilizando o seu terminal, e utilizar o seguinte comando:
 
 ```
-git clone 'URL do projeto no GitHub'
+git clone https://github.com/Izah-Silva/programando-com-a-vulpi.git
 ```
 
 Basta clicar no botão clonar dentro do GitHub e copiar o endereço.
