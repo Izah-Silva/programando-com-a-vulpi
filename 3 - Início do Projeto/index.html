@@ -83,109 +83,167 @@
       </div>
     </nav>
     <!-- Headline da Página -->
-    <header class="masthead" id="masthead">
-      <div>
+    <header class="masthead bg-primary text-white text-center" id="masthead">
+      <div class="container d-flex align-items-center flex-column">
         <!-- Logotipo - Master -->
         <img
-          class="masthead-avatar"
+          class="masthead-avatar mb-5"
           src="./assets/img/logovulpi.png"
           alt="Logotipo"
         />
         <!-- Título - Master -->
-        <h1 class="masthead-heading">O Next Level da sua Carreira</h1>
+        <h1 class="masthead-heading text-uppercase mb-0">
+          O Next Level da sua Carreira
+        </h1>
         <!-- Divider - Ícone -->
-        <div>
-          <div></div>
-          <div>
-            <i></i>
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="far fa-dot-circle"></i>
           </div>
-          <div></div>
+          <div class="divider-custom-line"></div>
         </div>
         <!-- Sub-Título -->
-        <p class="masthead-subheading">
+        <p class="masthead-subheading font-weight-light mb-0">
           Vagas para Desenvolvedores e Gerentes de Projeto
         </p>
       </div>
     </header>
     <!-- Vagas -->
     <section class="jobs page-section" id="jobs">
-      <div>
+      <div class="container">
         <!-- Título da Seção -->
-        <h2 class="page-section-heading">Vagas por tecnologia</h2>
+        <h2
+          class="page-section-heading text-center text-uppercase text-secondary mb-0"
+        >
+          Vagas por tecnologia
+        </h2>
         <!-- Divider - Ícone -->
-        <div>
-          <div></div>
-          <div>
-            <i></i>
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
           </div>
-          <div></div>
+          <div class="divider-custom-line"></div>
         </div>
         <!-- Grade de Vagas -->
-        <div class="jobs-div">
+        <div class="jobs-div row">
           <!-- Vaga número 1 -->
-          <div>
-            <div class="jobs-item">
-              <div class="jobs-item-caption">
-                <div class="jobs-item-caption-content">
-                  <i></i>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="jobs-item mx-auto"
+              data-toggle="modal"
+              data-target="#jobsModal1"
+            >
+              <div
+                class="jobs-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div class="jobs-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src="./assets/img/jobs/react.png" alt="" />
+              <img class="img-fluid" src="./assets/img/jobs/react.png" alt="" />
             </div>
           </div>
           <!-- Vaga número 2 -->
-          <div>
-            <div class="jobs-item">
-              <div class="jobs-item-caption">
-                <div class="jobs-item-caption-content">
-                  <i></i>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="jobs-item mx-auto"
+              data-toggle="modal"
+              data-target="#jobsModal2"
+            >
+              <div
+                class="jobs-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div class="jobs-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src="./assets/img/jobs/docker.png" alt="" />
+              <img
+                class="img-fluid"
+                src="./assets/img/jobs/docker.png"
+                alt=""
+              />
             </div>
           </div>
           <!-- Vaga número 3 -->
-          <div>
-            <div class="jobs-item">
-              <div class="jobs-item-caption">
-                <div class="jobs-item-caption-content">
-                  <i></i>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="jobs-item mx-auto"
+              data-toggle="modal"
+              data-target="#jobsModal3"
+            >
+              <div
+                class="jobs-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div class="jobs-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src="./assets/img/jobs/docker.png" alt="" />
+              <img
+                class="img-fluid"
+                src="./assets/img/jobs/docker.png"
+                alt=""
+              />
             </div>
           </div>
           <!-- Vaga número 4 -->
-          <div>
-            <div class="jobs-item">
-              <div class="jobs-item-caption">
-                <div class="jobs-item-caption-content">
-                  <i></i>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="jobs-item mx-auto"
+              data-toggle="modal"
+              data-target="#jobsModal4"
+            >
+              <div
+                class="jobs-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div class="jobs-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src="./assets/img/jobs/nodejs.png" alt="" />
+              <img
+                class="img-fluid"
+                src="./assets/img/jobs/nodejs.png"
+                alt=""
+              />
             </div>
           </div>
           <!-- Vaga número 5 -->
-          <div>
-            <div class="jobs-item">
-              <div clas="jobs-item-caption">
-                <div class="jobs-item-caption-content">
-                  <i></i>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="jobs-item mx-auto"
+              data-toggle="modal"
+              data-target="#jobsModal5"
+            >
+              <div
+                class="jobs-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div class="jobs-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src="./assets/img/jobs/nodejs.png" alt="" />
+              <img
+                class="img-fluid"
+                src="./assets/img/jobs/nodejs.png"
+                alt=""
+              />
             </div>
           </div>
           <!-- Vaga número 6 -->
-          <div>
-            <div class="jobs-item">
-              <div class="jobs-item-caption">
-                <div class="jobs-item-caption-content">
-                  <i></i>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="jobs-item mx-auto"
+              data-toggle="modal"
+              data-target="#jobsModal6"
+            >
+              <div
+                class="jobs-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div class="jobs-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src="./assets/img/jobs/react.png" alt="" />
+              <img class="img-fluid" src="./assets/img/jobs/react.png" alt="" />
             </div>
           </div>
         </div>
