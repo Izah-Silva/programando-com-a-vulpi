@@ -1,0 +1,113 @@
+/* Variáveis Globais do Nosso Projeto */
+
+:root {
+  --cor-primaria: #4e1d6d;
+  --cor-secundaria: #d22365;
+  --cor-secundaria-offset: #7e1f6a;
+  --cor-highlight: #291d6d;
+  --cor-cinza-escuro: #424242;
+  --cor-cinza-claro: #858585;
+  --cor-cinza-offcolor: #acacac;
+}
+
+/* Barra de Navegação */
+
+#mainNav {
+  background-color: var(--cor-highlight) !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif,
+    "Apple Color Emoji";
+  font-weight: 700;
+}
+
+#mainNav .navbar-brand {
+  color: #fff;
+}
+#mainNav .navbar-nav {
+  margin-top: 1rem;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: var(--cor-secundaria);
+}
+#mainNav .navbar-nav li.nav-item a.nav.link:active,
+#mainNav .navbar-nav li.nav-item a.nav.link:focus {
+  color: #fff;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: var(--cor-secundaria);
+}
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.8rem;
+}
+#menuBtn {
+  background-color: var(--cor-secundaria) !important;
+}
+
+/* Responsividade - NAVBAR */
+
+/* Cabeçalho */
+.masthead {
+  background-color: var(--cor-primaria) !important;
+  padding-top: calc(6rem + 74px);
+  padding-bottom: 6rem;
+}
+.masthead .masthead-avatar {
+  width: 15rem;
+}
+
+.masthead .masthead-heading {
+  font-size: 2.75rem;
+  line-height: 2.75rem;
+}
+
+.masthead .masthead-subheading {
+  font-size: 1.25rem;
+}
+
+#about {
+  background-color: var(--cor-secundaria);
+}
+
+/* Global */
+
+.divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #2c3e50;
+  border-radius: 1rem;
+  border-color: #2c3e50 !important;
+}
+
+.divider-custom .divider-custom-line:first-child {
+  margin-right: 1rem;
+}
+.divider-custom .divider-custom-line:last-child {
+  margin-left: 1rem;
+}
+
+.divider-custom .divider-custom-icon {
+  color: #2c3e50 !important;
+  font-size: 2rem;
+}
+
+.divider-custom.divider-light .divider-custom-line {
+  background-color: #fff;
+}
+.divider-custom.divider-light .divider-custom-icon {
+  color: #fff !important;
+}
