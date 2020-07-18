@@ -1,7 +1,7 @@
-# Programando com a Vulpi
+# Programando com a Vulpi 🦊💜
 
 
->Este projeto foi criado no curso Programando com a Vulpi oferecido na plataforma da Hotmart!
+>Este projeto foi criado no curso Programando com a Vulpi oferecido na plataforma da Hotmart em parceria com o Desenvolvedor Arthur Andrade!
 ---
 **Tecnologias Utilizadas:** 
 
