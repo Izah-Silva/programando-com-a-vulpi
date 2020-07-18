@@ -70,11 +70,92 @@
   font-size: 1.25rem;
 }
 
+@media (min-width: 992px) {
+  .masthead {
+    padding-top: calc(6rem + 104px);
+    padding-bottom: 6rem;
+  }
+  .mastehead .masthead-heading {
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.5rem;
+  }
+}
+
+/* Vagas */
+.jobs .jobs-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.jobs .jobs-item .job-item.caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: var(--cor-primaria);
+}
+
+.jobs .jobs-item .job-item-caption:hover {
+  opacity: 1;
+}
+
+.jobs .jobs-item .jobs-item-caption .jobs-item-caption-content {
+  font-size: 1.5rem;
+}
+
+/* Vagas Modal */
+
+.jobs-modal .jobs-modal-title {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+
+.jobs-modal .close {
+  position: absolute;
+  z-index: 1;
+  right: 1.5rem;
+  top: 1rem;
+  font-size: 3rem;
+  color: var(--cor-highlight);
+  opacity: 1;
+}
+
+/* Sobre Nós */
 #about {
-  background-color: var(--cor-secundaria);
+  background-color: var(--cor-secundaria) !important;
+}
+
+/* Rodapé */
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: var(--cor-cinza-escuro);
+  color: #fff;
+}
+
+/* Direitos Autorais */
+
+.copyright {
+  background-color: var(--cor-cinza-claro);
+}
+
+.copyright a {
+  color: var(--cor-cinza-offcolor);
+  text-decoration: none;
 }
 
 /* Global */
+
+/* Divisor */
 
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
@@ -110,4 +191,19 @@
 }
 .divider-custom.divider-light .divider-custom-icon {
   color: #fff !important;
+}
+
+/* Page-Section */
+.page-section {
+  padding: 6rem 0;
+}
+.page-section .page-section-heading {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+
+/* Botão XL */
+.btn-xl {
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
 }
