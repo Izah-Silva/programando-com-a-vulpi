@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>IT Next Level - Jobs</title>
+    <!-- Imports do Header -->
+
+    <!-- Font-Awesome -->
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- CSS Local -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Barra de Navegação -->
+    <nav
+      class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+          >Next level Jobs</a
+        ><button
+          class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          id="menuBtn"
+        >
+          Menu <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#jobs"
+                >Vagas</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#about"
+                >Sobre Nós</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#footer"
+                >Nossas Redes Sociais</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Headline da Página -->
+    <header class="masthead bg-primary text-white text-center" id="masthead">
+      <div class="container d-flex align-items-center flex-column">
+        <!-- Logotipo - Master -->
+        <img
+          class="masthead-avatar mb-5"
+          src="./assets/img/logovulpi.png"
+          alt="Logotipo"
+        />
+        <!-- Título - Master -->
+        <h1 class="masthead-heading text-uppercase mb-0">
+          O Next Level da sua Carreira
+        </h1>
+        <!-- Divider - Ícone -->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="far fa-dot-circle"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <!-- Sub-Título -->
+        <p class="masthead-subheading font-weight-light mb-0">
+          Vagas para Desenvolvedores e Gerentes de Projeto
+        </p>
+      </div>
+    </header>
+    <!-- Vagas -->
+    <section class="jobs page-section" id="jobs">
+      <div class="container">
+        <!-- Título da Seção -->
+        <h2
+          class="page-section-heading text-center text-uppercase text-secondary mb-0"
+        >
+          Vagas por tecnologia
+        </h2>
+        <!-- Divider - Ícone -->
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <!-- Grade de Vagas -->
+        <div class="jobs-div row">
+          <!-- Vaga número 1 -->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="jobs-item mx-auto"
+              data-toggle="modal"
+              data-target="#jobsModal1"
+            >
+              <div
+                class="jobs-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div class="jobs-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="./assets/img/jobs/react.png" alt="" />
+            </div>
+          </div>
+          <!-- Vaga número 2 -->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="jobs-item mx-auto"
+              data-toggle="modal"
+              data-target="#jobsModal2"
+            >
+              <div
+                class="jobs-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div class="jobs-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="./assets/img/jobs/docker.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- Vaga número 3 -->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="jobs-item mx-auto"
+              data-toggle="modal"
+              data-target="#jobsModal3"
+            >
+              <div
+                class="jobs-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div class="jobs-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="./assets/img/jobs/docker.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- Vaga número 4 -->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="jobs-item mx-auto"
+              data-toggle="modal"
+              data-target="#jobsModal4"
+            >
+              <div
+                class="jobs-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div class="jobs-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="./assets/img/jobs/nodejs.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- Vaga número 5 -->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="jobs-item mx-auto"
+              data-toggle="modal"
+              data-target="#jobsModal5"
+            >
+              <div
+                class="jobs-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div class="jobs-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="./assets/img/jobs/nodejs.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- Vaga número 6 -->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="jobs-item mx-auto"
+              data-toggle="modal"
+              data-target="#jobsModal6"
+            >
+              <div
+                class="jobs-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div class="jobs-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="./assets/img/jobs/react.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sobre Nós -->
+    <section class="about page-section bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <!-- Cabeçalho - Sobre nós -->
+        <h2 class="page-section-heading text-center text-uppercase text-white">
+          Sobre nossas vagas
+        </h2>
+        <!-- Divider - Ícone -->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-user-friends"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <!-- Conteúdo - Sobre nós -->
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead text-justify">
+              Trabalhamos com as melhores empresas do mercado para fornecer
+              desenvolvedores de alto nível e soluções empresariais completas
+              através da acessoria em RH.
+            </p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead text-justify">
+              Interessado em nossos serviços? Entre em contato e agende uma
+              reunião inicial.<br />
+              Você também pode entrar em contato conosco por nossas redes
+              sociais.
+            </p>
+          </div>
+        </div>
+        <!-- Botão - Sobre nós -->
+        <div class="text-center mt-4">
+          <a
+            class="btn btn-xl btn-outline-light"
+            href="mailto:vendas@seusite.com?subject=Contato Inicial"
+            ><i class="fas fa-calendar-alt mr-2"></i>Agendar</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Rodapé -->
+    <footer class="footer text-center" id="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Localização - Rodapé -->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Onde Estamos</h4>
+            <p class="lead mb-0">Rua dos Leões <br />Narnia, MM 60860</p>
+          </div>
+          <!-- Redes Sociais - Rodapé -->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Nossas Redes Sociais</h4>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://facebook.com/suapagina"
+              target="_blank"
+              ><i class="fab fa-fw fa-facebook-f"></i
+            ></a>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://twitter.com/seutwitter"
+              target="_blank"
+              ><i class="fab fa-fw fa-twitter"></i
+            ></a>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://linkedin.com/seulinkedin"
+              target="_blank"
+              ><i class="fab fa-fw fa-linkedin-in"></i
+            ></a>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://github.com/seugithub"
+              target="_blank"
+              ><i class="fab fa-fw fa-github"></i
+            ></a>
+          </div>
+          <!-- Sobre - Rodapé -->
+          <div class="col-lg-4">
+            <h4 class="text-uppercase mb-4">Quem Somos</h4>
+            <p class="lead mb-0">
+              Acessoria em RH especializada em recrutamento de talentos na
+              Tecnologia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Direitos Autorais -->
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>
+          Copyright © <a href="https://vulpi.com.br/">Vulpi</a> | IT Next Level
+          |
+          <a href="https://www.linkedin.com/in/arthur-andrade-fullstack-dev/"
+            >Arthur Andrade</a
+          >
+          | 2020
+        </small>
+      </div>
+    </div>
+    <!-- Vagas - Conteúdo - Vaga número 1 -->
+    <div
+      class="jobs-modal modal fade"
+      id="jobsModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="jobsModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Vaga Conteúdo - Título -->
+                  <h2
+                    class="jobs-modal-title text-secondary text-uppercase mb-0"
+                  >
+                    Desenvolvedor React
+                  </h2>
+                  <!-- Divider - Ícone -->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Vaga Conteúdo - Imagem -->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="assets/img/jobs/react.png"
+                    alt=""
+                  />
+                  <!-- Vaga Conteúdo - Texto -->
+                  <p class="mb-5">
+                    Experiência com React, React Native, SCSS, Styled Components
+                    e APIs REST.<br />
+                    Extremamente Comunicativo e responsável por tutorar outros
+                    desenvolvedores.<br />
+                    7 anos de experiência trabalhando com aplicações em larga
+                    escala.
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    href="mailto:recrutador@suaempresa.com?subject=Vaga FrontEnd React"
+                    role="button"
+                    >Candidatar!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Vagas - Conteúdo - Vaga número 2 -->
+    <div
+      class="jobs-modal modal fade"
+      id="jobsModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="jobsModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Vaga Conteúdo - Título -->
+                  <h2
+                    class="jobs-modal-title text-secondary text-uppercase mb-0"
+                  >
+                    Desenvolvedor Frontend Senior
+                  </h2>
+                  <!-- Divider - Ícone -->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Vaga Conteúdo - Imagem -->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="assets/img/jobs/docker.png"
+                    alt=""
+                  />
+                  <!-- Vaga Conteúdo - Texto -->
+                  <p class="mb-5">
+                    Experiência com React, React Native, SCSS, Styled Components
+                    e APIs REST.<br />
+                    Extremamente Comunicativo e responsável por tutorar outros
+                    desenvolvedores.<br />
+                    7 anos de experiência trabalhando com aplicações em larga
+                    escala.
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    href="mailto:recrutador@suaempresa.com?subject=Vaga FrontEnd React"
+                    role="button"
+                    >Candidatar!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Vagas - Conteúdo - Vaga número 3 -->
+    <div
+      class="jobs-modal modal fade"
+      id="jobsModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="jobsModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Vaga Conteúdo - Título -->
+                  <h2
+                    class="jobs-modal-title text-secondary text-uppercase mb-0"
+                  >
+                    Desenvolvedor Frontend Senior
+                  </h2>
+                  <!-- Divider - Ícone -->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Vaga Conteúdo - Imagem -->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="assets/img/jobs/docker.png"
+                    alt=""
+                  />
+                  <!-- Vaga Conteúdo - Texto -->
+                  <p class="mb-5">
+                    Experiência com React, React Native, SCSS, Styled Components
+                    e APIs REST.<br />
+                    Extremamente Comunicativo e responsável por tutorar outros
+                    desenvolvedores.<br />
+                    7 anos de experiência trabalhando com aplicações em larga
+                    escala.
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    href="mailto:recrutador@suaempresa.com?subject=Vaga FrontEnd React"
+                    role="button"
+                    >Candidatar!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Vagas - Conteúdo - Vaga número 4 -->
+    <div
+      class="jobs-modal modal fade"
+      id="jobsModal4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="jobsModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Vaga Conteúdo - Título -->
+                  <h2
+                    class="jobs-modal-title text-secondary text-uppercase mb-0"
+                  >
+                    Desenvolvedor Frontend Senior
+                  </h2>
+                  <!-- Divider - Ícone -->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Vaga Conteúdo - Imagem -->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="assets/img/jobs/nodejs.png"
+                    alt=""
+                  />
+                  <!-- Vaga Conteúdo - Texto -->
+                  <p class="mb-5">
+                    Experiência com React, React Native, SCSS, Styled Components
+                    e APIs REST.<br />
+                    Extremamente Comunicativo e responsável por tutorar outros
+                    desenvolvedores.<br />
+                    7 anos de experiência trabalhando com aplicações em larga
+                    escala.
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    href="mailto:recrutador@suaempresa.com?subject=Vaga FrontEnd React"
+                    role="button"
+                    >Candidatar!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Vagas - Conteúdo - Vaga número 5 -->
+    <div
+      class="jobs-modal modal fade"
+      id="jobsModal5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="jobsModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Vaga Conteúdo - Título -->
+                  <h2
+                    class="jobs-modal-title text-secondary text-uppercase mb-0"
+                  >
+                    Desenvolvedor Frontend Senior
+                  </h2>
+                  <!-- Divider - Ícone -->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Vaga Conteúdo - Imagem -->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="assets/img/jobs/nodejs.png"
+                    alt=""
+                  />
+                  <!-- Vaga Conteúdo - Texto -->
+                  <p class="mb-5">
+                    Experiência com React, React Native, SCSS, Styled Components
+                    e APIs REST.<br />
+                    Extremamente Comunicativo e responsável por tutorar outros
+                    desenvolvedores.<br />
+                    7 anos de experiência trabalhando com aplicações em larga
+                    escala.
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    href="mailto:recrutador@suaempresa.com?subject=Vaga FrontEnd React"
+                    role="button"
+                    >Candidatar!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Vagas - Conteúdo - Vaga número 6 -->
+    <div
+      class="jobs-modal modal fade"
+      id="jobsModal6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="jobsModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Vaga Conteúdo - Título -->
+                  <h2
+                    class="jobs-modal-title text-secondary text-uppercase mb-0"
+                  >
+                    Desenvolvedor Frontend Senior
+                  </h2>
+                  <!-- Divider - Ícone -->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Vaga Conteúdo - Imagem -->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="assets/img/jobs/react.png"
+                    alt=""
+                  />
+                  <!-- Vaga Conteúdo - Texto -->
+                  <p class="mb-5">
+                    Experiência com React, React Native, SCSS, Styled Components
+                    e APIs REST.<br />
+                    Extremamente Comunicativo e responsável por tutorar outros
+                    desenvolvedores.<br />
+                    7 anos de experiência trabalhando com aplicações em larga
+                    escala.
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    href="mailto:recrutador@suaempresa.com?subject=Vaga FrontEnd React"
+                    role="button"
+                    >Candidatar!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript BootStrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
